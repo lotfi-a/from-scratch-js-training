@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "watch": "sass --watch ./lib/styles/index.scss:./lib/styles/index.css"
+    "watch": "sass --watch ./lib/styles/index.scss:./dist/styles/index.css"
   },
   "dependencies": {
     "prettier": "^3.0.1"
