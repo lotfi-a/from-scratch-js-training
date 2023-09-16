@@ -1,8 +1,14 @@
 {
   "scripts": {
-    "watch": "sass --watch ./lib/styles/index.scss:./dist/styles/index.css"
+    "css:watch": "sass --watch ./lib/styles/index.scss:./dist/styles/index.css",
+    "webp:build": "webpack --config webpack.config.js",
+    "webp:watch": "webpack --config webpack.config.js --watch"
   },
   "dependencies": {
     "prettier": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }
